@@ -27,6 +27,7 @@ public class Rogue
         
         while(!player.expired())
         {
+        	System.out.println("Softwarepraktikum");
             term.clearBuffer();
             for(int x = 0; x < world.width(); x++)
                 for(int y = 0; y < world.height(); y++)
